@@ -1,4 +1,4 @@
-FROM k8sre/openjdk:8.275
+FROM k8sre/openjdk:8
 
 COPY entrypoint.sh         /
 
