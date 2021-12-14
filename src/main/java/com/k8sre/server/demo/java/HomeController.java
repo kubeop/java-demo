@@ -8,6 +8,6 @@ public class HomeController {
 
     @RequestMapping("/")
     public String home() {
-        return "Hello k8sre";
+        return "Hello World!";
     }
 }
