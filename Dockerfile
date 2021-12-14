@@ -6,6 +6,6 @@ RUN apk update                             && \
     apk upgrade                            && \
     chmod 755 /entrypoint.sh
 
-COPY target/java-demo-0.0.2.jar /opt/demo.jar
+COPY target/demo-0.0.2.jar /opt/demo.jar
 
 ENTRYPOINT ["/sbin/tini", "--", "/entrypoint.sh"]

@@ -15,10 +15,10 @@
 	</properties>
 
 	<groupId>com.k8sre.server</groupId>
-	<artifactId>java-demo</artifactId>
+	<artifactId>demo</artifactId>
 	<version>0.0.2</version>
 	<packaging>jar</packaging>
-	<name>java-demo</name>
+	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 
 	<dependencies>

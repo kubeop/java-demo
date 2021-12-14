@@ -7,7 +7,7 @@ server:
     direct-buffers: true
 spring:
   application:
-    name: java-demo
+    name: demo
 
 management:
   endpoints:
