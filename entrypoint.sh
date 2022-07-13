@@ -8,7 +8,7 @@ if [ -z "$@" ]
 then
     msg "Start ${app_name} of ${app_env}."
     cd /opt
-    exec java ${java_opts} \
+    java ${java_opts} \
               -Denv=${app_env} \
               -Dfile.encoding=utf-8 \
               -XX:+UseContainerSupport \
